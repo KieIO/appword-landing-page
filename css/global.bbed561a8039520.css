@@ -2816,23 +2816,23 @@ a {
     opacity: .2
 }
 
-.SiteHeader {
+.kie-SiteHeader {
     background: #4257b2;
     color: #fff;
     height: 5rem
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader {
+    .kie-SiteHeader {
         height: 3.125rem
     }
 
-    body.mode .SiteHeader {
+    body.mode .kie-SiteHeader {
         display: none
     }
 }
 
-.SiteHeader-wrapper {
+.kie-SiteHeader-wrapper {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -2848,28 +2848,28 @@ a {
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-wrapper {
+    .kie-SiteHeader-wrapper {
         height: 3.125rem
     }
 }
 
-.SiteHeader-logo {
+.kie-SiteHeader-logo {
     width: 9.375rem
 }
 
 @media screen and (max-width: 38.75em) {
-    .SiteHeader-logo {
+    .kie-SiteHeader-logo {
         width: auto
     }
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader.has-searchOpen .SiteHeader-logo {
+    .kie-SiteHeader.has-searchOpen .kie-SiteHeader-logo {
         display: none
     }
 }
 
-.SiteHeader-logo .UILink {
+.kie-SiteHeader-logo .UILink {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -2878,41 +2878,41 @@ a {
     height: 5rem
 }
 
-.SiteHeader-logo .UILink:focus, .SiteHeader-logo .UILink:hover {
+.kie-SiteHeader-logo .UILink:focus, .kie-SiteHeader-logo .UILink:hover {
     color: #fff !important
 }
 
 @media screen and (min-width: 28.8125em) {
-    .SiteHeader-logo .UILink {
+    .kie-SiteHeader-logo .UILink {
         width: 9.375rem
     }
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-logo .UILink {
+    .kie-SiteHeader-logo .UILink {
         height: 3.125rem
     }
 }
 
-.SiteHeader.is-whiteBackground {
+.kie-SiteHeader.is-whiteBackground {
     background: #fff
 }
 
-.SiteHeader.is-whiteBackground .SiteLogo {
+.kie-SiteHeader.is-whiteBackground .SiteLogo {
     color: #4257b2
 }
 
-.SiteHeader-cancel .SiteHeader-cancelCopy {
+.kie-SiteHeader-cancel .kie-SiteHeader-cancelCopy {
     margin-top: .125rem
 }
 
-.SiteHeader-cancel .UILink {
+.kie-SiteHeader-cancel .UILink {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column
 }
 
-.SiteHeader-cancel .UILink, .SiteHeader-transitionGroupWrapper {
+.kie-SiteHeader-cancel .UILink, .kie-SiteHeader-transitionGroupWrapper {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -2920,7 +2920,7 @@ a {
     display: flex
 }
 
-.SiteHeader-transitionGroupWrapper {
+.kie-SiteHeader-transitionGroupWrapper {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -2928,25 +2928,25 @@ a {
     position: relative
 }
 
-.SiteHeader-headerItemsTransitionGroup {
+.kie-SiteHeader-headerItemsTransitionGroup {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1
 }
 
-.SiteHeader-searchTransitionGroup {
+.kie-SiteHeader-searchTransitionGroup {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%
 }
 
-.SiteHeader-searchTransitionGroupMobile {
+.kie-SiteHeader-searchTransitionGroupMobile {
     position: absolute;
     width: 100%
 }
 
-.SiteHeader-headerItemsTransitionGroupMobile {
+.kie-SiteHeader-headerItemsTransitionGroupMobile {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -2962,13 +2962,13 @@ a {
     width: 100%
 }
 
-.SiteHeader-section {
+.kie-SiteHeader-section {
     display: inline-block;
     font-size: .9375rem;
     white-space: nowrap
 }
 
-.SiteHeader-defaultDesktop {
+.kie-SiteHeader-defaultDesktop {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -2985,116 +2985,116 @@ a {
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-defaultDesktop {
+    .kie-SiteHeader-defaultDesktop {
         display: none
     }
 }
 
-.SiteHeader-searchFormWrapper {
+.kie-SiteHeader-searchFormWrapper {
     display: inline-block;
     padding-left: 2rem;
     width: 100%
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-searchFormWrapper {
+    .kie-SiteHeader-searchFormWrapper {
         height: 3.125rem;
         padding-top: .625rem;
         padding-left: 0
     }
 }
 
-.SiteHeader-searchInput {
+.kie-SiteHeader-searchInput {
     width: calc(100% - 4.5rem)
 }
 
-.SiteHeader-searchInputTransition-enter {
+.kie-SiteHeader-searchInputTransition-enter {
     opacity: 0;
     transform: translateX(30px)
 }
 
-.SiteHeader-searchInputTransition-enter.SiteHeader-searchInputTransition-enter-active {
+.kie-SiteHeader-searchInputTransition-enter.kie-SiteHeader-searchInputTransition-enter-active {
     opacity: 1;
     transform: translateX(0);
     transition: transform .3s ease-in, opacity .3s cubic-bezier(.47, 0, .745, .715)
 }
 
-.SiteHeader-searchInputTransition-leave {
+.kie-SiteHeader-searchInputTransition-leave {
     opacity: 1;
     transform: translateX(0)
 }
 
-.SiteHeader-searchInputTransition-leave.SiteHeader-searchInputTransition-leave-active {
+.kie-SiteHeader-searchInputTransition-leave.kie-SiteHeader-searchInputTransition-leave-active {
     opacity: 0;
     transform: translateX(30px);
     transition: transform .3s ease-in, opacity .3s cubic-bezier(.47, 0, .745, .715)
 }
 
-.SiteHeader-searchDefaultHeaderTransition-enter {
+.kie-SiteHeader-searchDefaultHeaderTransition-enter {
     opacity: .01
 }
 
-.SiteHeader-searchDefaultHeaderTransition-enter.SiteHeader-searchDefaultHeaderTransition-enter-active {
+.kie-SiteHeader-searchDefaultHeaderTransition-enter.kie-SiteHeader-searchDefaultHeaderTransition-enter-active {
     opacity: 1;
     transition: opacity .3s cubic-bezier(.47, 0, .745, .715) .3s
 }
 
-.SiteHeader-searchDefaultHeaderTransition-leave {
+.kie-SiteHeader-searchDefaultHeaderTransition-leave {
     opacity: 1
 }
 
-.SiteHeader-searchDefaultHeaderTransition-leave.SiteHeader-searchDefaultHeaderTransition-leave-active {
+.kie-SiteHeader-searchDefaultHeaderTransition-leave.kie-SiteHeader-searchDefaultHeaderTransition-leave-active {
     opacity: .01;
     transition: opacity .3s cubic-bezier(.47, 0, .745, .715)
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-browse, .SiteHeader-create, .SiteHeader-search {
+    .kie-SiteHeader-browse, .kie-SiteHeader-create, .kie-SiteHeader-search {
         display: none
     }
 }
 
-.SiteHeader-browse .UILink, .SiteHeader-create .UILink, .SiteHeader-search .UILink {
+.kie-SiteHeader-browse .UILink, .kie-SiteHeader-create .UILink, .kie-SiteHeader-search .UILink {
     display: inline-block;
     padding: 1.25rem 2rem;
     width: 100%
 }
 
-.SiteHeader-create {
+.kie-SiteHeader-create {
     width: 8.75rem
 }
 
-.SiteHeader-search {
+.kie-SiteHeader-search {
     width: 9rem
 }
 
-.SiteHeader-search .UILink {
+.kie-SiteHeader-search .UILink {
     padding-right: 0;
     text-align: inherit
 }
 
-.SiteHeader-browse {
+.kie-SiteHeader-browse {
     width: 8.75rem
 }
 
-.SiteHeader-browse a.UILink {
+.kie-SiteHeader-browse a.UILink {
     text-align: center
 }
 
-.SiteHeader-browse .UILink {
+.kie-SiteHeader-browse .UILink {
     padding-right: 0;
     padding-left: 0
 }
 
-.SiteHeader-searchInner {
+.kie-SiteHeader-searchInner {
     padding-right: 2rem
 }
 
-.SiteHeader-browseInner, .SiteHeader-searchInner {
-    border-right: 2px solid #3b4c9b
+.kie-SiteHeader-browseInner, .kie-SiteHeader-searchInner {
+    /*border-right: 2px solid #3b4c9b*/
 }
 
-.SiteHeader-browseWrapper {
+.kie-SiteHeader-browseWrapper {
     display: -webkit-flex;
     display: flex;
     -ms-flex-pack: center;
@@ -3102,17 +3102,17 @@ a {
     justify-content: center
 }
 
-.SiteHeader-browseIcon, .SiteHeader-createIcon, .SiteHeader-searchSubmitIcon {
+.kie-SiteHeader-browseIcon, .kie-SiteHeader-createIcon, .kie-SiteHeader-searchSubmitIcon {
     margin-right: .5rem;
     position: relative
 }
 
-.SiteHeader-linksSectionContainer {
+.kie-SiteHeader-linksSectionContainer {
     display: inline-block;
     width: 25rem
 }
 
-.SiteHeader-linksSection {
+.kie-SiteHeader-linksSection {
     display: -webkit-flex;
     display: flex;
     -ms-flex-pack: start;
@@ -3120,48 +3120,48 @@ a {
     justify-content: flex-start
 }
 
-.SiteHeader-linksSection .SiteHeader-browse, .SiteHeader-linksSection .SiteHeader-create, .SiteHeader-linksSection .SiteHeader-search {
+.kie-SiteHeader-linksSection .kie-SiteHeader-browse, .kie-SiteHeader-linksSection .kie-SiteHeader-create, .kie-SiteHeader-linksSection .kie-SiteHeader-search {
     padding: .75rem 0;
     width: fit-content
 }
 
-.SiteHeader-linksSection .SiteHeader-browseInner, .SiteHeader-linksSection .SiteHeader-searchInner {
+.kie-SiteHeader-linksSection .kie-SiteHeader-browseInner, .kie-SiteHeader-linksSection .kie-SiteHeader-searchInner {
     border-right: 2px solid hsla(0, 0%, 100%, .1)
 }
 
-.SiteHeader-linksSection .SiteHeader-browseInner, .SiteHeader-linksSection .SiteHeader-createInner, .SiteHeader-linksSection .SiteHeader-searchInner {
+.kie-SiteHeader-linksSection .kie-SiteHeader-browseInner, .kie-SiteHeader-linksSection .kie-SiteHeader-createInner, .kie-SiteHeader-linksSection .kie-SiteHeader-searchInner {
     padding: .125rem 1rem;
     width: fit-content
 }
 
-.SiteHeader-linksSection .UILink {
+.kie-SiteHeader-linksSection .UILink {
     padding: 0
 }
 
-.SiteHeader-linksSection .SiteHeader-linkText {
+.kie-SiteHeader-linksSection .kie-SiteHeader-linkText {
     font-size: 1rem;
     vertical-align: text-top
 }
 
-.SiteHeader-icon.UIIcon {
+.kie-SiteHeader-icon.UIIcon {
     vertical-align: middle
 }
 
-.SiteHeader-searchForm {
+.kie-SiteHeader-searchForm {
     width: 100%
 }
 
-.SiteHeader-searchInput {
+.kie-SiteHeader-searchInput {
     display: inline-block;
     padding-left: .3125rem;
     vertical-align: middle
 }
 
-.SiteHeader-searchInputClose {
+.kie-SiteHeader-searchInputClose {
     display: inline-block
 }
 
-.SiteHeader-searchInputBox, .SiteHeader-searchInputCloseButton {
+.kie-SiteHeader-searchInputBox, .kie-SiteHeader-searchInputCloseButton {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -3170,20 +3170,20 @@ a {
     color: #fff
 }
 
-.SiteHeader-searchInputBox:active, .SiteHeader-searchInputBox:focus, .SiteHeader-searchInputCloseButton:active, .SiteHeader-searchInputCloseButton:focus {
+.kie-SiteHeader-searchInputBox:active, .kie-SiteHeader-searchInputBox:focus, .kie-SiteHeader-searchInputCloseButton:active, .kie-SiteHeader-searchInputCloseButton:focus {
     outline: none
 }
 
-.SiteHeader-searchInputClose {
+.kie-SiteHeader-searchInputClose {
     text-align: right;
     width: 2.625rem
 }
 
-.SiteHeader-searchInputCloseButton {
+.kie-SiteHeader-searchInputCloseButton {
     cursor: pointer
 }
 
-.SiteHeader-searchInputBox {
+.kie-SiteHeader-searchInputBox {
     display: block;
     font-family: inherit;
     font-size: 1.125rem;
@@ -3192,23 +3192,23 @@ a {
     width: 100%
 }
 
-.SiteHeader-searchInputBox::-webkit-input-placeholder {
+.kie-SiteHeader-searchInputBox::-webkit-input-placeholder {
     color: #c0cace
 }
 
-.SiteHeader-searchInputBox:-moz-placeholder, .SiteHeader-searchInputBox::-moz-placeholder {
+.kie-SiteHeader-searchInputBox:-moz-placeholder, .kie-SiteHeader-searchInputBox::-moz-placeholder {
     color: #c0cace
 }
 
-.SiteHeader-searchInputBox:-ms-input-placeholder {
+.kie-SiteHeader-searchInputBox:-ms-input-placeholder {
     color: #c0cace
 }
 
-.SiteHeader-searchInputBox::-ms-input-placeholder {
+.kie-SiteHeader-searchInputBox::-ms-input-placeholder {
     color: #c0cace
 }
 
-.SiteHeader-defaultMobileHeader {
+.kie-SiteHeader-defaultMobileHeader {
     display: none;
     height: 100%;
     text-align: right;
@@ -3216,13 +3216,13 @@ a {
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-defaultMobileHeader {
+    .kie-SiteHeader-defaultMobileHeader {
         display: inline-block
     }
 }
 
 @media screen and (max-width: 38.75em) {
-    .SiteHeader-defaultMobileHeader {
+    .kie-SiteHeader-defaultMobileHeader {
         display: -webkit-flex;
         display: flex;
         -webkit-flex: 1;
@@ -3236,27 +3236,27 @@ a {
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader.has-searchOpen .SiteHeader-defaultMobileHeader {
+    .kie-SiteHeader.has-searchOpen .kie-SiteHeader-defaultMobileHeader {
         display: none
     }
 }
 
-.SiteHeader-userSection {
+.kie-SiteHeader-userSection {
     text-align: right;
     width: calc(100% - 17.75rem)
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-userSection {
+    .kie-SiteHeader-userSection {
         display: none
     }
 }
 
-.SiteHeader-userSection--browseLinks {
+.kie-SiteHeader-userSection--browseLinks {
     width: calc(100% - 25rem)
 }
 
-.SiteHeader-notification {
+.kie-SiteHeader-notification {
     background: #ff725b;
     border-radius: .5rem;
     color: #fff;
@@ -3268,25 +3268,25 @@ a {
     width: 1rem
 }
 
-.SiteHeader-mobileLinkArea {
+.kie-SiteHeader-mobileLinkArea {
     height: 100%
 }
 
-.SiteHeader-mobileLinkArea + .SiteHeader-mobileLinkArea, .SiteHeader-mobileLinkArea + [class^=UI], [class^=UI] + .SiteHeader-mobileLinkArea {
+.kie-SiteHeader-mobileLinkArea + .kie-SiteHeader-mobileLinkArea, .kie-SiteHeader-mobileLinkArea + [class^=UI], [class^=UI] + .kie-SiteHeader-mobileLinkArea {
     margin-left: 1.5rem
 }
 
-.SiteHeader-mobileLinkArea .UILink {
+.kie-SiteHeader-mobileLinkArea .UILink {
     display: inline-block;
     height: 100%;
     vertical-align: top
 }
 
-.SiteHeader-mobileLinkArea .UILink .UIIcon {
+.kie-SiteHeader-mobileLinkArea .UILink .UIIcon {
     height: 100%
 }
 
-.SiteHeader-signIn {
+.kie-SiteHeader-signIn {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
@@ -3295,20 +3295,20 @@ a {
     height: 100%
 }
 
-.SiteHeader-signIn a.UIButton, .SiteHeader-signIn button.UIButton {
+.kie-SiteHeader-signIn a.UIButton, .kie-SiteHeader-signIn button.UIButton {
     margin-left: 0
 }
 
-.SiteHeader-signInBtn {
+.kie-SiteHeader-signInBtn {
     padding: .75rem 1.5rem
 }
 
-.SiteHeader-chiclet, .SiteHeader-userInfo {
+.kie-SiteHeader-chiclet, .kie-SiteHeader-userInfo {
     display: inline-block;
     vertical-align: middle
 }
 
-.SiteHeader-userInfo {
+.kie-SiteHeader-userInfo {
     font-weight: 600;
     line-height: 5rem;
     position: relative;
@@ -3316,78 +3316,78 @@ a {
 }
 
 @media screen and (max-width: 55.625em) {
-    .SiteHeader-userInfo {
+    .kie-SiteHeader-userInfo {
         min-width: 0
     }
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeader-userInfo {
+    .kie-SiteHeader-userInfo {
         line-height: 3.125rem
     }
 }
 
-.SiteHeader-chiclet {
+.kie-SiteHeader-chiclet {
     margin-right: 2rem
 }
 
 @media screen and (max-width: 38.75em) {
-    .SiteHeader-chiclet {
+    .kie-SiteHeader-chiclet {
         margin-right: 0
     }
 }
 
-.SiteHeader-chiclet .UILink--inverted:focus:not(:active), .SiteHeader-chiclet .UILink--inverted:hover:not(:active) {
+.kie-SiteHeader-chiclet .UILink--inverted:focus:not(:active), .kie-SiteHeader-chiclet .UILink--inverted:hover:not(:active) {
     opacity: 1
 }
 
-.SiteHeader-avatar {
+.kie-SiteHeader-avatar {
     display: inline-block;
     margin-right: .625rem
 }
 
-.SiteHeader-username {
+.kie-SiteHeader-username {
     display: inline-block;
     padding-right: .625rem
 }
 
 @media screen and (max-width: 55.625em) {
-    .SiteHeader-username {
+    .kie-SiteHeader-username {
         display: none
     }
 }
 
-.SiteHeader-userDropdown {
+.kie-SiteHeader-userDropdown {
     min-width: 8.75rem
 }
 
-.SiteHeader-userDropdown .UIIcon {
+.kie-SiteHeader-userDropdown .UIIcon {
     color: #455358;
     fill: #455358
 }
 
-.SiteHeader-userDropdownIcon {
+.kie-SiteHeader-userDropdownIcon {
     vertical-align: middle
 }
 
-.SiteHeader-userDropdownOptionSection {
+.kie-SiteHeader-userDropdownOptionSection {
     border-bottom: 1px solid #f4f4f4
 }
 
-.SiteHeader-userDropdownOptionSection .UIIcon.UIIcon--new {
+.kie-SiteHeader-userDropdownOptionSection .UIIcon.UIIcon--new {
     width: 2rem
 }
 
-.SiteHeader-userDropdownOptionSection:last-child {
+.kie-SiteHeader-userDropdownOptionSection:last-child {
     border-bottom: 0
 }
 
-.SiteHeader-logoutLink .UILink {
+.kie-SiteHeader-logoutLink .UILink {
     text-align: left;
     width: 100%
 }
 
-.SiteHeader-VOLinks {
+.kie-SiteHeader-VOLinks {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -3405,12 +3405,12 @@ a {
 }
 
 @media print {
-    .SiteHeader {
+    .kie-SiteHeader {
         background: #fff;
         height: 3.125rem
     }
 
-    .SiteHeader-section {
+    .kie-SiteHeader-section {
         display: none !important
     }
 }
@@ -3628,7 +3628,7 @@ a {
     }
 }
 
-.SiteHeaderChiclet {
+.kie-SiteHeaderChiclet {
     display: inline-block;
     padding: .5rem .75rem;
     text-align: center;
@@ -3639,39 +3639,39 @@ a {
     transition: all .12s cubic-bezier(.47, 0, .745, .715)
 }
 
-.SiteHeaderChiclet, .SiteHeaderChiclet:visited, html.touch .SiteHeaderChiclet:focus:hover:not(:active) {
+.kie-SiteHeaderChiclet, .kie-SiteHeaderChiclet:visited, html.touch .kie-SiteHeaderChiclet:focus:hover:not(:active) {
     background-color: #3ccfcf;
     color: #fff
 }
 
-.SiteHeaderChiclet:active, html.cursor .SiteHeaderChiclet:hover, html.cursor .SiteHeaderChiclet:hover:visited {
+.kie-SiteHeaderChiclet:active, html.cursor .kie-SiteHeaderChiclet:hover, html.cursor .kie-SiteHeaderChiclet:hover:visited {
     background-color: #ffcd1f;
     color: #455358
 }
 
-.SiteHeaderChiclet:focus:not(:active):not(:hover) {
+.kie-SiteHeaderChiclet:focus:not(:active):not(:hover) {
     color: hsla(0, 0%, 100%, .5)
 }
 
-.SiteHeaderChiclet:focus {
+.kie-SiteHeaderChiclet:focus {
     outline: none
 }
 
 @media screen and (max-width: 38.75em) {
-    .SiteHeaderChiclet {
+    .kie-SiteHeaderChiclet {
         font-weight: 600;
         font-size: .75rem;
         line-height: 1.333333333333333
     }
 }
 
-.SiteHeaderChiclet-tooltip .UITooltip {
+.kie-SiteHeaderChiclet-tooltip .UITooltip {
     cursor: pointer;
     margin-top: 1.5rem
 }
 
 @media screen and (max-width: 48em) {
-    .SiteHeaderChiclet-tooltip .UITooltip {
+    .kie-SiteHeaderChiclet-tooltip .UITooltip {
         margin-top: .5rem
     }
 }

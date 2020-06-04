@@ -24,3 +24,8 @@
     word-break: break-word;
     font-size: 24px;
 }
+
+.appName-logo {
+    font-size: 25px;
+    color: lawngreen;
+}
