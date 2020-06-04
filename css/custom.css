@@ -1,0 +1,26 @@
+.custom-UIInput-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    color: #2d3639;
+    cursor: text;
+    caret-color: blue;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    outline: none;
+    padding-bottom: .375rem;
+    padding-left: 10px;
+    text-align: inherit;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    font-size: 24px;
+}
