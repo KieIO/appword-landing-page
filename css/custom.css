@@ -32,5 +32,8 @@
 
 .kie-SiteHeader {
   background:white;
+}
 
+.UILink--inverted, .UILink--inverted:visited, html.touch .UILink--inverted:focus:hover:not(:active) {
+  color: black;
 }
